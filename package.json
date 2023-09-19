@@ -4,6 +4,7 @@
   "description": "\"Браузерная игра\"",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Tolik19bat/game/issues"
   },
-  "homepage": "https://github.com/Tolik19bat/game#readme"
+  "homepage": "https://github.com/Tolik19bat/game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20"
+  },
+  "dependencies": {
+    "core-js": "^3.32.2"
+  }
 }
